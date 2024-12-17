@@ -36,7 +36,7 @@ descanso.
 </table>
 
 ### a)
-*Determine por el método gráfico la combinación óptima.*
+*Determine por el método simplex la combinación óptima.*
 
 #### Definición del problema
 - Definicion de variables
@@ -69,7 +69,7 @@ $R_2 \to 6x_1 + 20x_2 + s_2= 600$
 
 $R_3 \to 8x_1 + 10x_2 + s_3= 600$
 
-#### Obtener los puntos de esquina
+#### Obtener las variables de entrada
    
 | $V_B$ | $Z$ | $x_1$ | $x_2$    | $s_1$ | $s_2$ | $s_3$ | $Solucion$ |
 | ----- | --- | ----- | -------- | ----- | ----- | ----- | ---------- |
@@ -106,11 +106,14 @@ $R_3 \to 8x_1 + 10x_2 + s_3= 600$
 ##### Actualizar $Z$
 
 | $V_B$         | $Z$ | $x_1$ | $x_2$           | $s_1$          | $s_2$ | $s_3$ | $Solucion$ |
-| ------------- | --- | ----- | --------------- | -------------- | ----- | ----- |
+| ------------- | --- | ----- | --------------- | -------------- | ----- | ----- | ---------- |
 | $Z$           | $1$ | $-2$  | ==$-3$==        | $0$            | $0$   | $0$   | $0$        |
-| $x_1$         | $0$ | $1$   | $\frac{2}{3}$   | $\frac{1}{6}$  | $0$   | $4$   |
-| $-5(x_1)$     | $0$ | $-5$  | $\frac{-10}{3}$ | $\frac{-5}{6}$ | $0$   | $-20$ |
-| $Z=Z-(-5x_1)$ | $1$ | $0$   | $\frac{-2}{3}$  | $\frac{5}{6}$  | $0$   | $20$  |
+| $x_1$         | $0$ | $1$   | $\frac{2}{3}$   | $\frac{1}{6}$  | $0$   | $4$   |            |
+| $-5(x_1)$     | $0$ | $-5$  | $\frac{-10}{3}$ | $\frac{-5}{6}$ | $0$   | $-20$ |            |
+| $Z=Z-(-5x_1)$ | $1$ | $0$   | $\frac{-2}{3}$  | $\frac{5}{6}$  | $0$   | $20$  |            |
+
+> Tarea: Completar
+
 
 ### b)
 *Determine el Precio Dual del proceso 2.*
